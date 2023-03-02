@@ -91,9 +91,9 @@ ll max_sub_array_circular(vector<T>&v)
 
 void solve()
 { 
-    vector<ll>v = {-2, 3 , -1 , 3 ,-4};
-    cout << max_sub_array_circular(v) << nl;
-    cout << maxSubArraySum(v);
+    vector<ll>v = {3  , -5  , -9 , 4 , 5 ,-30 , 7};
+    cout << max_sub_array_circular(v) << nl; // 10
+    cout << maxSubArraySum(v);//9
 }
 int main()
 {
